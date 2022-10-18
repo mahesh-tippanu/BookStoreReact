@@ -1,0 +1,97 @@
+.centerContent{
+    flex: 1 1 100%;
+    box-sizing: border-box;
+    max-width: 40%;
+}
+
+.mainContent{
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+.topContent{
+    margin-bottom: 5%;
+    flex: 1 1 100%;
+    box-sizing: border-box;
+    max-height: 5%;
+
+}
+.subContent{
+    margin-bottom: 5%;
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1 1 1e-9px;
+}
+.leftContent{
+    flex: 1 1 0%;
+    box-sizing: border-box;
+}
+.centerContent{
+    flex: 1 1 100%;
+    box-sizing: border-box;
+    /* max-width: 60%; */
+
+}
+.rightContent{
+    flex: 1 1 0%;
+    box-sizing: border-box;
+}
+
+.Hearder{
+text-align: center;
+color: blue;
+
+}
+.paragraphContent{
+    text-align: center;
+
+}
+
+.subParagraphContent{
+    text-align: center;
+}
+
+
+#email_button{
+    float: right;
+    cursor: pointer;
+    
+}
+.BackButton{
+    color: blue;
+    cursor: pointer;
+}
+#new_pass{
+    color :blue;
+}
+
+#eye_icon{
+    font-size: 25px;
+    float: right;
+    position: relative;
+    top: 30px;
+}
+
+.eyeContent{
+    cursor: pointer;
+}
+/* #conform_Password_id,#password_id{
+    color:red
+} */
+
+#password_id-helper-text,#conform_Password_id-helper-text{
+    color:red;
+}
+
+@media only screen and (max-width: 600px) {
+    .subContent{
+        display: block;
+    }
+    .centerContent{
+        display: block;
+        max-width: 100%;
+    }
+   }
